@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "deepunderstandingofdeeplearning"
+version = "0.1.0"
+description = "packages needed for the udemy course"
+authors = ["Madbubbl3 <hellinsylvain@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+scipy = "^1.11.2"
+torch = "^2.0.1"
+jupyter = "^1.0.0"
+notebook = "^7.0.3"
+numpy = "^1.25.2"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+h5py = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
