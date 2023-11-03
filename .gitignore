@@ -1,3 +1,4 @@
 /.DS_Store
 /.venv
 /poetry.lock
+LangChain for LLM Application Development/secrets.env
