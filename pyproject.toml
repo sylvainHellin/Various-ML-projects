@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "deepunderstandingofdeeplearning"
+name = "Venv-variousMLProjects"
 version = "0.1.0"
 description = "packages needed for the udemy course"
 authors = ["Madbubbl3 <hellinsylvain@gmail.com>"]
@@ -17,7 +17,15 @@ seaborn = "^0.12.2"
 h5py = "^3.9.0"
 openai = "^0.28.1"
 python-dotenv = "^1.0.0"
-langchain = "^0.0.329"
+langchain = {extras = ["docarray"], version = "^0.0.334"}
+tiktoken = "^0.5.1"
+icecream = "^2.1.3"
+jupyterlab = "^4.0.8"
+ipykernel = "^6.26.0"
+kite = "^1.5.7"
+jupyter-kite = "^2.0.2"
+docarray = "~0.32.0"
+pydantic = "~1.10"
 
 
 [build-system]
