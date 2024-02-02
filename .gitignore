@@ -5,3 +5,7 @@ LangChain for LLM Application Development/secrets.env
 LangChain for LLM Application Development/.DS_Store
 LangChain for LLM Application Development/.ipynb_checkpoints/secrets-checkpoint.env
 .gitignore
+LangChain Chat with your data/.DS_Store
+LangChain Chat with your data/Data/.DS_Store
+Building Generative AI Applications with Gradio/secrets.env
+.gitignore
